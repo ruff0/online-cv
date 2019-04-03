@@ -1,0 +1,27 @@
+
+title: Jose
+url: 'http://400tres.com'
+baseurl: '/online-cv' #change it according to your repository name
+
+
+# Enable one of these styles by removing #. Style will be applied only after restarting the build or serve.
+#style: styles-2
+#style: styles-3
+#style: styles-4
+#style: styles-5
+#style: styles-6
+
+
+#Profile information
+name: Jose Barbosa
+tagline: Full Stack Developer
+pic: 2n(1).jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+#sidebar links
+email: jose.barbosa@polimentes.com
+phone: 314 131 6653
+website: 400tres.com #do not add http://
+linkedin: ruff0
+github: ruff0
+
+#Update all the sections by editing the files inside _includes folder.

@@ -1,0 +1,44 @@
+<!-- Use icons from fontawesome when you are adding new item in the contact list  -->             
+
+                 
+     <div class="sidebar-wrapper">
+            <div class="profile-container">
+                <img class="profile-img" src="{{site.baseurl}}/assets/images/picofmine.jpg" alt="profile picture" />
+                <h1 class="name">Alberto Ureña</h1>
+                <h3 class="tagline">Sr. Backend Developer</h3>
+            </div><!--//profile-container-->
+            
+            <div class="contact-container container-block">
+                <ul class="list-unstyled contact-list">
+                   
+                    <li class="email"><i class="fa fa-envelope"></i><a href="mailto:ruff0@400tres.com">ruff0@400tres.com</a></li>
+                    <li class="phone"><i class="fa fa-phone"></i><a href="tel:+52 314 109 1115">+52 314 109 1115</a></li>
+                    <li class="whatsapp"><i class="fa fa-whatsapp"></i><a href="whatsapp:+52 314 131 6653">+52 314 131 6653</a></li>
+                    <li class="skype"><i class="fa fa-skype"></i><a href="skype:live:objectsinmirrorareclosertha?chat" target="_blank">alberto ureña</a></li>
+                    
+                    {% if site.website %}
+                    <li class="website"><i class="fa fa-globe"></i><a href="http://{{site.website}}" target="_blank">{{site.website}}</a></li>
+                    {% else %}
+                    <li class="website"><i class="fa fa-globe"></i><a href="http://blog.webjeda.com" target="_blank">400tres.com</a></li>
+                    {% endif %}
+                    
+               
+                    <li class="linkedin"><i class="fa fa-linkedin"></i><a href="https://in.linkedin.com/in/{{site.linkedin}}" target="_blank">linkedin.com/in/{{site.linkedin}}</a></li>
+                    
+                    {% if site.github %}
+                    <li class="github"><i class="fa fa-github"></i><a href="https://github.com/{{site.github}}" target="_blank">github.com/{{site.github}}</a></li>
+                    {% else %}
+                    <li class="github"><i class="fa fa-github"></i><a href="https://github.com/ruff0" target="_blank">github.com/ruff0</a></li>
+                    {% endif %}
+                    <li class="bitbucket"><i class="fa fa-bitbucket"></i><a href="https://bitbuckeet.org/ruff0" target="_blank">bitbucket.org/ruff0</a></li>
+                    <li class="stack-overflow"><i class="fa fa-stack-overflow"></i><a href="https://stackoverflow.com/users/7092472/" target="_blank">stackoverflow.com/ruff0</a></li>
+                   
+                    
+                            
+                </ul>
+            </div><!--//contact-container-->
+           {% include language.html %}
+           {% include interests.html %}
+        
+            
+        </div><!--//sidebar-wrapper-->
