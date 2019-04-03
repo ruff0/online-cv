@@ -1,7 +1,7 @@
 
 title: Jose
-url: 'http://400tres.com'
-baseurl: '/online-cv' #change it according to your repository name
+url: 'http://github.com/ruff0'
+baseurl: '/cv' #change it according to your repository name
 
 
 # Enable one of these styles by removing #. Style will be applied only after restarting the build or serve.
